@@ -2,7 +2,7 @@ require "wib/version"
 
 module Wib
 
-  def run
+  def run!
     repo = Rugged::Repository.new '.'
     lines_to_run = Set.new
 
